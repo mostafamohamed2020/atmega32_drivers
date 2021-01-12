@@ -49,11 +49,15 @@ void TMR0_STOP();
 
 void TMR0_DELAY(u_int32 DELAY_MS);
 
+
+
 void TMR0_PWM_DUTYCYCLE(u_int8 DUTY_CYCLE);
 
 void TMR0_PWM_START();
 
 void TMR0_PWM_STOP();
+
+
 
 u_int8 INIT_COUNTER0();
 
